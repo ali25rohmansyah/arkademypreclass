@@ -3,21 +3,10 @@ const umur = 22
 const alamat = "Jl. Ta'lim No. 62 Rt008/Rw004, Jatikramat, Jatiasih, Bekasi, Jawa Barat, 17421"
 const hobi = "Membaca novel/komik"
 const asalSekolah = "Universitas Gunadarma, jurusan Teknik Informatika"
-const jurusan = "Universitas Gunadarma, jurusan Teknik Informatika"
-const alasanSukaProgramming = "Karena saya selalu memikirkan bagaimana merancang/membuat program"
+const tertarikProgramming = "Karena saya selalu memikirkan bagaimana merancang/membuat program"
+const alasan1 = "UI/UX, Html, Css, Javascript, kotlin/java, Php, Git, dan beberapa framework web"
+const alasan2 = "ya karena agak sulit untuk belajar tanpa mentor yg berpengalaman"
+const alasan3 = "Karena saya tertarik dengan penyaluran kerja dengan minimum gaji 6jt"
+const alasan4 = "Saya memiliki beberapa pengetahuan dasar hingga menengah terkait beberapa materi yang nanti akan diberikan"
 
-console.log(
-    "Nama saya adalah "
-    + nama +
-    ", asal sekolah/universitas "
-    + asalSekolah +
-    " jurusan "
-    + jurusan +
-    ". Alasan saya tertarik dengan programming adalah "
-    + alasanSukaProgramming)
-
-    console.log("Perbedaan var, let dengan const adalah...")
-    console.log("var = bersifat global dan dapat di ubah dimana pun. ")
-    console.log("let = bersifat scoop area dan dapat di ubah")
-    console.log("const = bersifat scoop area, immutable (tidak dapat dirubah), dan tidak dapat di deklarasikan ulang")
-
+console.log(`${nama}\n${umur}\n${alamat}\n${hobi}\n${asalSekolah}\n${tertarikProgramming}\n${alasan1}\n${alasan2}\n${alasan3}\n${alasan4}`)
